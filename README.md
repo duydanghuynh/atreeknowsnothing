@@ -1,8 +1,11 @@
 # atreeknowsnothing
+
 ## About:
-This project simple website prototype named atreeknowsnothing. I create this project to learn using CSS to manipulate HTML
-Languages used: HTML, CSS
-## Demo:
+This project is simple website prototype named atreeknowsnothing. I create this project for learning CSS, HTML.
+Keywords: DOM, client-server model
+Languages used: HTML, CSS, javascript
+
+## At a glance:
 - Home Page:
 
 ![image](https://user-images.githubusercontent.com/51033012/166866970-6936df10-0cd5-4b53-b42e-81405bddeff2.png)
