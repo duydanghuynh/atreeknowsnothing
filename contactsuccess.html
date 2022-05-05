@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Tree Knowns Nothing - Contact</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Luckiest+Guy|Philosopher|Viga&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/a6d0433847.js" crossorigin="anonymous"></script>	
+  </head>
+	<body>
+		<div id="wraps">
+			<div class="header-container">			
+				<a href="index.html" class="header-item"><img id="logo" src="./images/logo.gif"/></a>	
+				<nav class="header-item">
+					<ul>
+						<li>
+							<a href="index.html">
+								Home
+							</a> 
+						</li>
+						<li>
+							<a href="classes.html">
+								Classes
+							</a> 
+						</li>
+						<li>
+							<a href="activities.html">
+								Activities
+							</a> 
+						</li>
+						<li>
+							<a href="blogs.html">
+								Blogs
+							</a>
+						</li>
+						<li>
+							<a href="contact.html">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</nav>	
+			</div>		
+			<main>
+			<h2>Contact me</h2>
+				<form onsubmit="return validateForm();" action="https://atreeknowsnothing.website/comment" method="POST">
+					<label for="name">Your Name:</label>
+					<input id="name" type="text" name="name" />
+					
+					<label for="email">E-mail:</label>
+					<input id="email" type="email" name="email" />
+					
+					<label for="phoneno">Phone:</label>
+					<input id="phoneno" type="tel" name="phoneno" />
+					
+					<label for="message">Message </label>
+					<textarea id="message" name="message" rows="2" cols="20" ></textarea>
+					
+					<input type="submit" id="submit" Value="Submit"/>
+				</form>
+			</main>
+			<footer>
+					<a>
+						Copyright &copy; 2019 Duy Huynh
+					</a>
+			</footer>
+		</div>
+	</body>
+</html>
